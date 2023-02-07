@@ -41,6 +41,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
@@ -53,6 +54,7 @@
                             <version>0.2.0</version>
                         </path>
                     </annotationProcessorPaths>
+
                 </configuration>
             </plugin>
         </plugins>
